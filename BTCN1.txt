@@ -1,0 +1,11 @@
+Câu 1:Mong muốn và định hướng của bạn là gì sau khi học xong môn học? 
+
+Sau khi học xong môn lập trình thiết bị di động, tôi mong muốn có được những kiến thức và kỹ năng cơ bản trong việc phát triển ứng dụng trên thiết bị di động. Mặc dù không định hướng chuyên sâu trong lĩnh vực này, tôi vẫn muốn hiểu được quy trình xây dựng một ứng dụng di động, từ thiết kế giao diện người dùng đến xử lý logic bên trong. Kiến thức này sẽ giúp tôi mở rộng hiểu biết về lập trình cũng như hỗ trợ tốt hơn khi làm việc nhóm trong các dự án phần mềm có liên quan. 
+
+ 
+
+Câu 2:Theo bạn, trong tương lai gần (10 năm) lập trình di động có phát triển không? Giải thích tại sao? 
+
+Theo tôi, trong vòng 10 năm tới, lập trình thiết bị di động sẽ vẫn tiếp tục phát triển mạnh mẽ. Với sự phổ biến ngày càng tăng của smartphone và các thiết bị IoT, nhu cầu sử dụng ứng dụng di động sẽ không ngừng tăng. Các lĩnh vực như thương mại điện tử, y tế, giáo dục, và smart home đều đang đòi hỏi các giải pháp di động linh hoạt và thông minh. Ngoài ra, sự phát triển của 5G, trí tuệ nhân tạo và thực tế tăng cường trên thiết bị di động cũng sẽ mở ra nhiều cơ hội mới cho lập trình viên. Do đó, lập trình thiết bị di động là một lĩnh vực đầy tiềm năng và đáng theo đuổi lâu dài. 
+
+ 
