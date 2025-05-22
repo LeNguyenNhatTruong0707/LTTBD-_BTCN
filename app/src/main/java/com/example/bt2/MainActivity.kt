@@ -9,29 +9,36 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Khai báo các thành phần giao diện
-        val editTextName = findViewById<EditText>(R.id.editTextText)
-        val editTextAge = findViewById<EditText>(R.id.editTextNumber)
-        val buttonCheck = findViewById<Button>(R.id.button)
-        val textViewResult = findViewById<TextView>(R.id.textViewKetQua) // ID của dòng kết quả
+        val editTextName = findViewById<EditText>(R.id.editTextName)
+        val editTextAge = findViewById<EditText>(R.id.editTextAge)
+        val buttonCheck = findViewById<Button>(R.id.buttonCheck)
+        val textViewResult = findViewById<TextView>(R.id.textViewResult)
 
-        // Gắn sự kiện khi nhấn nút
         buttonCheck.setOnClickListener {
             val name = editTextName.text.toString()
             val ageText = editTextAge.text.toString()
 
-            if (name.isNotEmpty() && ageText.isNotEmpty()) {
-                val age = ageText.toInt()
-                val type = when {
-                    age < 2 -> "trẻ sơ sinh"
-                    age < 12 -> "trẻ em"
-                    age < 60 -> "người lớn"
-                    else -> "người già"
-                }
-                textViewResult.text = "$name là $type."
-            } else {
+            if (name.isEmpty() || ageText.isEmpty()) {
                 textViewResult.text = "Vui lòng nhập đầy đủ họ tên và tuổi."
+                return@setOnClickListener
             }
+
+            val age = ageText.toIntOrNull()
+            if (age == null) {
+                textViewResult.text = "Tuổi không hợp lệ."
+                return@setOnClickListener
+            }
+
+            val result = when {
+                age <= 2 -> "Em bé"
+                age <= 6 -> "Trẻ em"
+                age <= 65 -> "Người lớn"
+                else -> "Người già"
+            }
+
+            textViewResult.text = "Tên: $name\nPhân loại: $result"
         }
     }
+
 }
+

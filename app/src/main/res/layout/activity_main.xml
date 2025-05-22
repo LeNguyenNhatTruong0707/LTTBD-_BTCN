@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THỰC HÀNH 1"
-        android:textSize="20sp"
-        tools:text="THỰC HÀNH 1" />
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="THỰC HÀNH 01"
+        android:textColor="#2196F3"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_marginBottom="12dp"
         android:hint="Họ và tên"
-        android:inputType="text" />
+        android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editTextAge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_marginBottom="16dp"
         android:hint="Tuổi"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/buttonCheck"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kiểm tra" />
+        android:layout_gravity="center"
+        android:text="Kiểm tra"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textViewKetQua"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="..."
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="20sp" />
+        android:id="@+id/textViewResult"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
