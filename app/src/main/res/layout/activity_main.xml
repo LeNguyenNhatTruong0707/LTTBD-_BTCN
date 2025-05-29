@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UI Components List"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Text"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonTextField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextField"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonPasswordField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PasswordField"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonColumn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Column"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/buttonRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Row"
+                android:background="#ADD8E6"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
